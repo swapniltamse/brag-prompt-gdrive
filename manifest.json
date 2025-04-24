@@ -5,7 +5,7 @@
   "description": "A gentle reminder to reflect on what mattered today.",
   "permissions": ["identity", "storage", "notifications", "alarms"],
   "oauth2": {
-    "client_id": "YOUR_GOOGLE_CLIENT_ID",
+    "client_id": "702703258690-1535833koqs6hnkm8fp8krstma31t2hu.apps.googleusercontent.com",
     "scopes": ["https://www.googleapis.com/auth/drive.file"]
   },
   "action": {
