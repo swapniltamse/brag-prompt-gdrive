@@ -1,14 +1,19 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>What mattered today?</title>
-  </head>
-  <body>
-    <h3>What did you do today that mattered?</h3>
-    <textarea id="entry" rows="4" cols="40"></textarea>
-    <br>
-    <button id="saveBtn">Save</button>
-    <div id="status"></div>
-    <script src="popup.js"></script>
-  </body>
+<head>
+  <title>Brag Prompt</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 250px; }
+    textarea { width: 100%; height: 100px; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>What did you do today that mattered?</h3>
+  <textarea id="note"></textarea>
+  <button id="save">Save</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
 </html>

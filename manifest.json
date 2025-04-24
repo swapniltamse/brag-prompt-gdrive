@@ -1,17 +1,27 @@
 {
   "manifest_version": 3,
-  "name": "Brag Prompt",
-  "version": "1.0",
-  "description": "A gentle reminder to reflect on what mattered today.",
-  "permissions": ["identity", "storage", "notifications", "alarms"],
+  "name": "Brag Prompt Extension",
+  "description": "Prompts you to note what you did today that mattered, and appends to a single Google Doc.",
+  "version": "1.1",
+  "permissions": ["identity", "storage", "scripting"],
   "oauth2": {
     "client_id": "702703258690-1535833koqs6hnkm8fp8krstma31t2hu.apps.googleusercontent.com",
-    "scopes": ["https://www.googleapis.com/auth/drive.file"]
-  },
-  "action": {
-    "default_popup": "popup.html"
+    "scopes": [
+      "https://www.googleapis.com/auth/documents",
+      "https://www.googleapis.com/auth/drive.file"
+    ]
   },
   "background": {
     "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.jpg"
+  },
+  "host_permissions": ["https://docs.googleapis.com/"],
+  "icons": {
+    "16": "icon.jpg",
+    "48": "icon.jpg",
+    "128": "icon.jpg"
   }
 }
