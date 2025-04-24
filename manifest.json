@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Brag Prompt",
+  "version": "1.0",
+  "description": "A gentle reminder to reflect on what mattered today.",
+  "permissions": ["identity", "storage", "notifications", "alarms"],
+  "oauth2": {
+    "client_id": "YOUR_GOOGLE_CLIENT_ID",
+    "scopes": ["https://www.googleapis.com/auth/drive.file"]
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
