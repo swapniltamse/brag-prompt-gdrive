@@ -1,10 +1,10 @@
 
-BragPrompt – Reflect on Your Daily Wins
+**BragPrompt – Reflect on Your Daily Wins**
 
-Short description:
+**Short description:**
 A simple daily nudge to help you track what you did that mattered—fight imposter syndrome, one note at a time.
 
-Full Description:
+**Full Description:**
 BragPrompt is a lightweight Chrome extension that pops up once a day and asks:
 “What did you do today that mattered?”
 
@@ -14,7 +14,7 @@ Your answer is quietly saved to a private Google Doc in your Drive. No judgments
 
 Whether you're an engineer, designer, PM, or student—this tool is designed for those of us who sometimes forget how much we actually do.
 
-Why BragPrompt?
+**Why BragPrompt?**
 
 Beat imposter syndrome with daily reflection
 
