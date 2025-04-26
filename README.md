@@ -28,3 +28,7 @@ Perfect for performance reviews, job interviews, or simply recognizing your grow
 
 Open-source. No tracking. Just you and your work.
 
+Paper that insipired this project: https://psycnet.apa.org/record/1986-03760-001
+Full PDF: https://github.com/swapniltamse/brag-prompt-gdrive/blob/main/Depression%20and%20preference%20for%20self-focusing%20stimuli%20after%20success%20and%20failure..pdf
+
+
